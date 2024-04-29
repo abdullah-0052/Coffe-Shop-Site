@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar{
+    display: flex;
+}
+.logo{
+    width: 65%;
+    height: 100px;
+}
+.logo h1{
+    line-height: 100px;
+   padding-left: 50px;
+    color: beige;
+}
+.menu-bar{
+    width: 35%;
+    height: 100px;
+}
+
+.menu-bar ul{
+    width: 100%;
+    height: 100px;
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 53px;
+}
+.menu-bar li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #4e2c2c;
+}
+.intro{
+    width: 55%;
+    color: white;
+    height: 300px;
+    padding-top: 80px;
+    margin-left: 107px;
+}
+
+.intro h1{
+    font-size: 3.8rem;
+}
+.intro p{
+    margin: 30px 0;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+}
+
+.intro button{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 11px 28px;
+    color : #4e2c2c;
+    border: none;
+}
+button:hover{
+    background: linear-gradient(50deg, white, #4e2c2c);
+    color: white;
+    transition: 0.5s;
+    outline: 0.6s;
+}
+.intro img{
+    width: 380px;
+    height: 280px;
+    border-radius: 15px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+.about {
+    backgrounD:rgba(0, 0, 0, 0.2) url(img/nordwood-themes-ivP3TYdLvw0-unsplash\ \(3\).jpg);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    background-blend-mode: darken;
+
+}
+
+.about .menu1{
+    width: 350px;
+    height: 360px;
+
+    background: #4e2c2c;
+    position: relative;
+    top: 50px;
+    margin-left: 12%;
+    display: inline-block;
+    border-radius: 15px;
+
+
+}
+.about .menu2{
+   display: inline-block;
+   background: #4e2c2c;
+
+    width: 350px;
+    height: 360px;
+    box-sizing: border-box;
+    position: relative;
+    top: 50px;
+    margin: 5%;
+    border-radius: 15px;
+
+    
+}
+.about .menu3{
+   display: inline-block;
+   background: #4e2c2c;
+
+    width: 350px;
+    height: 360px;
+
+    box-sizing: border-box;
+    position: relative;
+    top: 50px;
+    border-radius: 15px;
+
+}
+.about img{
+    position: relative;
+    top: 15%;
+    left: 37%;
+    border-radius: 15px;
+}
+.about button{
+    position: relative;
+    top: 200px;
+    background: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    width: 90px;
+    padding: 15px;
+    left: 38px;
+    text-transform: uppercase;
+}
+.about button:hover{
+    background: linear-gradient(80deg, rgb(75, 60, 60), #4e2c2c);
+    color: white;
+    transition:  0.7s ease-out 100ms;
+    cursor: pointer;
+    font-size: 18px;
+}
+.about h2{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #4e2c2c;
+
+}
+
+.about p{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    position: relative;
+    top: 55%;
+    text-align: center;
+    letter-spacing: 1px;
+    word-wrap: 2px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.coffee{
+    background: #291717;
+    width: 100%;
+    height: 450px;
+    
+}
+.coffee img{
+    display: inline;
+    width: 400px;
+    height: 330px;
+    position: relative;
+    margin-top: 4%;
+    margin-left: 10%;
+    border-radius: 15px;
+}
+.coffee p{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    position: relative;
+    margin-left: 45%;
+    top: -50%;
+    font-size: 20px;
+}
+
+.contact{
+    background-image: url(img/coffee-beans-dark-background-top-view-coffee-concept.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 420px;
+}
+.contact h2{
+    color: #ffffff;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+
+}
+form{
+
+    position: relative;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #4e2c2c;
+    letter-spacing: 2px;
+    top: -270%;
+    
+}
+
+input{
+
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background: #98989834;
+    border: #291717 solid 3px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 15px;
+    margin-left: 70px;
+}
+label{
+   font-size: 25px;
+   text-transform: capitalize;
+   font-weight: 700;
+   margin-left: 70px;
+   color: #ffffff;
+}
+.contact button{
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-left: 70px;
+    width: 100px;
+    height: 35px;
+    border: #1c1010 solid 2px;
+    background: #887d7d35;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+
+.contact button:hover{
+    background: linear-gradient(90deg, rgb(182, 147, 50), #4e2c2c);
+    color: white;
+    transition: 0.6s ease-out;
+    cursor: pointer;
+}
+
+input:hover{
+    border: rgb(188, 2, 2) 3px solid;
+    transition: 0.5s;
+    letter-spacing: 3px;
+}
+
+.alt{
+    width: 100%;
+    height: 250px;
+    background: #1c1010;
+}
+.footer-container{
+    background-color: #1c1010;
+    padding-bottom: 4rem;
+
+}
+
+.footer{
+
+    width: 90%;
+    height: 50%;
+    background:rgba(0, 0, 0, 0.5) url(img/d2a7eff5-b25b-4796-9764-67e09c73a938.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    color :#fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;;
+    padding: 25px;
+    border-radius: 0 0px 15px 15px;
+    position: relative;
+    box-shadow: rgba(216, 216, 216, 0.341) 10px 10px 10px 0px ;
+    
+    
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem; 
+    position: relative;
+    right: 150px;
+    top:20px;
+
+}
+.footer-heading2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    position: relative;
+    right: 150px;
+    top:20px;
+}
+.footer-heading3   {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    position: relative;
+    right: 150px;
+    top:20px;
+}
+.footer-heading h2{
+    margin-bottom: 2rem;
+    position: relative;
+  
+}
+.footer-heading a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+.footer-heading:hover{
+    color: orangered;
+    transition: 0.3s ease-out  ;
+}
+
+.footer-heading2 h2{
+    margin-bottom: 2rem;
+    position: relative;
+    
+}
+.footer-heading2 a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+.footer-heading2:hover{
+    color: orangered;
+    transition: 0.3s ease-out  ;
+}
+
+.footer-heading3 h2{
+    margin-bottom: 2rem;
+    position: relative;
+   
+}
+.footer-heading3 a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+.footer-heading3:hover{
+    color: orangered;
+    transition: 0.3s ease-out  ;
+}
+
+.footer a:hover{
+    color: orangered;
+}
+.location{
+    position: relative;
+    left: 100px;
+    border-radius: 5px;
+}
+.location a{
+    color: #fff;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+.location a:hover{
+    color: orangered;
+}
